@@ -12,8 +12,8 @@ Lets take as a base, the same link from reddit [vm.tiktok.com/ZMjLCdn2V](vm.tikt
 1. The link that appears when you select "Share" => "Copy Link" from inside of tiktok
 **vm.tiktok.com/ZMjLCdn2V**
 
-2. The link that it expands to, upon opening it:
-[**www.tiktok.com/@trippybeatt/video/7273343482721291563      ?_t=8fI24GJcSEn&_r=1**](www.tiktok.com/@trippybeatt/video/7273343482721291563?_t=8fI24GJcSEn&_r=1)
+2. <p>The link that it expands to, upon opening it:<br>
+[**www.tiktok.com/@trippybeatt/video/7273343482721291563      ?_t=8fI24GJcSEn&_r=1**](www.tiktok.com/@trippybeatt/video/7273343482721291563?_t=8fI24GJcSEn&_r=1)</p>
 
 	Only the part left of the question-mark is required to share the video in reality. All the things after the question-mark are just trackers embedded into the link by TikTok.
 
