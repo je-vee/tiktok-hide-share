@@ -21,5 +21,4 @@ Lets take as a base, the same link from reddit [vm.tiktok.com/ZMjLCdn2V](vm.tikt
 3. So the cleaned-up version of it would be:
 **www.tiktok.com/@trippybeatt/video/7273343482721291563**
 
-<center>This number 3 is also what you will get as output, from the website.</center>
-<center>2023</center>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This number 3 is also what you will get as output, from the website.
