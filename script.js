@@ -37,6 +37,9 @@ document.addEventListener("DOMContentLoaded", function() {
 
 							// Display the result container and resolved link
 							resultTextarea.value = resolvedText;
+							
+							// Select the text in the result text area
+							resultTextarea.select();
 						}
 					} else {
 						// Handle the case where the link cannot be expanded
