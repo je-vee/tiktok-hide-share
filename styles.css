@@ -1,0 +1,44 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0; /* Use your preferred pastel background color */
+    font-family: 'Your Fancy Font', cursive; /* Replace 'Your Fancy Font' with your desired font name */
+}
+
+.container {
+    text-align: center;
+    background-color: #ffffff; /* Use your preferred pastel container color */
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    font-size: 24px;
+    color: #ff6b6b; /* Use your preferred text color */
+}
+
+.input-container {
+    margin-top: 20px;
+}
+
+input {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #e2e2e2; /* Use your preferred pastel input box color */
+    margin-right: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #6bd4ff; /* Use your preferred pastel button color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #fff; /* Text color for the button */
+    font-weight: bold;
+}
