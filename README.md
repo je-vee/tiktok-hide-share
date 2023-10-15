@@ -1,3 +1,4 @@
+
 # tiktok-hide-share
 ## For when you just want to share a tiktok, not your profile + other intrusive trackers inside of the link.
 ### What is it doing?
@@ -15,9 +16,10 @@ Lets take as a base, the same link from reddit [vm.tiktok.com/ZMjLCdn2V](vm.tikt
 2. <p>The link that it expands to, upon opening it:<br>
 [**www.tiktok.com/@trippybeatt/video/7273343482721291563<br>?_t=8fI24GJcSEn&_r=1**](www.tiktok.com/@trippybeatt/video/7273343482721291563?_t=8fI24GJcSEn&_r=1)
 	<br>
-	Only the part left of the question-mark is required to share the video in reality. All the things after the question-mark are just trackers embedded into the link by TikTok.</p>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Only the part left of the question-mark is required to share the video in reality. All the things after the question-mark are just trackers embedded into the link by TikTok.</p>
 
 3. So the cleaned-up version of it would be:
 **www.tiktok.com/@trippybeatt/video/7273343482721291563**
 
-	This is also what you will get as output, from the website.
+<center>This number 3 is also what you will get as output, from the website.</center>
+<center>2023</center>
