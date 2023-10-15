@@ -1,15 +1,17 @@
 :root {
-    --background-color: #f5f2fd;
-    --primary-color: #39198f;
-    --secondary-color: #c9baf3;
-    --accent-color: #4c22bf;
-	--text-color: #030208;
+    --background-color-light: #f5f2fd;
+    --primary-color-light: #39198f;
+    --secondary-color-light: #c9baf3;
+    --accent-color-light: #4c22bf;
+    --text-color-light: #030208;
+    --shadow-color-light: rgba(0, 0, 0, 0.2);
 	
-	--drk-background-color: #05020d;
-    --drk-primary-color: #8f70e6;
-    --drk-secondary-color: #1b0c45;
-    --drk-accent-color: #6a40dd;
-	--drk-text-color: #f8f7fd;
+    --background-color-dark: #05020d;
+    --primary-color-dark: #8f70e6;
+    --secondary-color-dark: #1b0c45;
+    --accent-color-dark: #6a40dd;
+    --text-color-dark: #f8f7fd;
+	--shadow-color-dark: white;
 }
 
 body {
@@ -29,7 +31,7 @@ body {
     background-color: var(--background-color);
     border-radius: 15px;
     padding: 20px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 0px 10px var(--shadow-color);
 }
 
 h1 {
@@ -70,6 +72,7 @@ input {
 input::placeholder {
     font-style: italic;
 	font-weight: bold;
+	color: var(--text-color);
 }
 
 button {
@@ -77,6 +80,30 @@ button {
     color: white;
     cursor: pointer;
     font-weight: bold;
+}
+
+button#darkModeToggle {
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 9999;
+    padding: 0; /* Remove padding to control button size with width and height */
+    width: 60px; /* Set the width to 60px */
+    height: 60px; /* Set the height to 60px */
+    background-color: var(--primary-color); /* Button background color */
+    color: white; /* Button text color */
+    border: none;
+    border-radius: 25%; /* Rounded corners to make it a circle */
+    cursor: pointer;
+	box-shadow: 0px 0px 10px var(--shadow-color);
+}
+
+button#darkModeToggle img {
+    vertical-align: middle;
+    width: 30px; /* Adjust the icon size */
+    height: 30px; /* Adjust the icon size */
+    margin: 0; /* Remove margin for the icon */
 }
 
 .result-container {
@@ -101,13 +128,15 @@ textarea {
 
 .watermarks {
     text-align: center;
+	font-weight: bold;
+	color: var(--text-color);
     margin-top: 20px;
     font-size: 14px;
     position: fixed;
     bottom: 0;
     left: 0;
     right: 0;
-    background-color: #f5f2fd; /* Match the background color of your site */
+    background-color: var(--background-color); /* Match the background color of your site */
 }
 
 .watermarks p {
@@ -118,4 +147,8 @@ textarea {
     width: 16px; /* Adjust the icon size as needed */
     vertical-align: middle;
     margin-right: 5px;
+}
+
+.inverted {
+    filter: invert(1);
 }

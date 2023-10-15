@@ -1,4 +1,41 @@
 document.addEventListener("DOMContentLoaded", function() {
+    const darkModeToggle = document.getElementById("darkModeToggle");
+	const darkModeIcon = document.getElementById("darkModeIcon");
+	const gh_logolink = document.getElementById("gh_logolink");
+    let isDarkMode = false;
+	
+	darkModeIcon.classList.toggle("inverted");
+	document.documentElement.style.setProperty("--background-color", "var(--background-color-light)");
+	document.documentElement.style.setProperty("--primary-color", "var(--primary-color-light)");
+	document.documentElement.style.setProperty("--secondary-color", "var(--secondary-color-light)");
+	document.documentElement.style.setProperty("--accent-color", "var(--accent-color-light)");
+	document.documentElement.style.setProperty("--text-color", "var(--text-color-light)");
+	document.documentElement.style.setProperty("--shadow-color", "var(--shadow-color-light)");
+			
+    darkModeToggle.addEventListener("click", function() {
+        isDarkMode = !isDarkMode;
+		
+		darkModeIcon.classList.toggle("inverted");
+		gh_logolink.classList.toggle("inverted");
+		
+        if (isDarkMode) {
+            document.documentElement.style.setProperty("--background-color", "var(--background-color-dark)");
+            document.documentElement.style.setProperty("--primary-color", "var(--primary-color-dark)");
+            document.documentElement.style.setProperty("--secondary-color", "var(--secondary-color-dark)");
+            document.documentElement.style.setProperty("--accent-color", "var(--accent-color-dark)");
+            document.documentElement.style.setProperty("--text-color", "var(--text-color-dark)");
+			document.documentElement.style.setProperty("--shadow-color", "var(--shadow-color-dark)");
+        } else {
+            // Reset to light mode colors
+            document.documentElement.style.setProperty("--background-color", "var(--background-color-light)");
+            document.documentElement.style.setProperty("--primary-color", "var(--primary-color-light)");
+            document.documentElement.style.setProperty("--secondary-color", "var(--secondary-color-light)");
+            document.documentElement.style.setProperty("--accent-color", "var(--accent-color-light)");
+            document.documentElement.style.setProperty("--text-color", "var(--text-color-light)");
+			document.documentElement.style.setProperty("--shadow-color", "var(--shadow-color-light)");
+        }
+    });
+	
     const linkInput = document.getElementById("linkInput");
     const transformButton = document.getElementById("transformButton");
     const resultTextarea = document.getElementById("resultTextarea");
@@ -52,28 +89,3 @@ document.addEventListener("DOMContentLoaded", function() {
 		}
 	});
 });
-
-/*
-document.addEventListener("DOMContentLoaded", function() {
-    const linkInput = document.getElementById("linkInput");
-    const transformButton = document.getElementById("transformButton");
-    const resultTextarea = document.getElementById("resultTextarea");
-    const resultContainer = document.querySelector(".result-container");
-
-    transformButton.addEventListener("click", function() {
-        const inputText = linkInput.value;
-
-        // Replace this API request with your actual logic
-        //const resolvedText = "This is the resolved link: " + inputText;
-		const resolvedText = "This is the resolved link: " + inputText;
-
-        // Display the result container and resolved link
-        resultContainer.style.display = "block";
-        resultTextarea.value = resolvedText;
-
-        // Automatically adjust the textarea's height to fit the content
-        resultTextarea.style.height = "auto";
-        resultTextarea.style.height = (resultTextarea.scrollHeight) + "px";
-    });
-});
-*/
