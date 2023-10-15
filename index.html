@@ -9,14 +9,23 @@
     <title>Hide-Share</title>
 </head>
 <body>
-	<script type="text/javascript" src="script.js"></script>
     <div class="container">
         <h1>Hide-Share!</h1>
         <div class="input-container">
-            <input type="text" id="linkInput" placeholder="Paste link here" value="vm.tiktok.com/ZMjLCdn2V">
+            <input type="text" id="linkInput" placeholder='Paste "vm.tiktok.com/something" here'>
             <button id="transformButton">Transform</button>
         </div>
-		<div class="resolved-link" id="resolvedLink"></div>
+        <div class="result-container">
+            <textarea id="resultTextarea" readonly></textarea>
+        </div>
     </div>
+    <script src="script.js"></script>
+	<div class="watermarks">
+		<p>Created with the help of <a href="https://pages.github.com/" target="_blank">GitHub Pages</a></p>
+		<p>
+			<a href="https://github.com/je-vee/" target="_blank">Created by je-vee</a>
+			<img id="gh_logolink" width=20px src="assets\github-mark.svg" alt="Created by" />
+		</p>
+	</div>
 </body>
 </html>
