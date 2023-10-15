@@ -10,14 +10,14 @@ Often times, the trackers at the end of the link are quite long, and require an 
 ### The differences:
 Lets take as a base, the same link from reddit [vm.tiktok.com/ZMjLCdn2V](vm.tiktok.com/ZMjLCdn2V)
 1. The link that appears when you select "Share" => "Copy Link" from inside of tiktok
-**https://vm.tiktok.com/ZMjLCdn2V**
+**vm.tiktok.com/ZMjLCdn2V**
 
 2. The link that it expands to, upon opening it:
-**https://www.tiktok.com/@trippybeatt/video/7273343482721291563?_t=8fI24GJcSEn&_r=1**
+[www.tiktok.com/@trippybeatt/video/7273343482721291563?_t=8fI24GJcSEn&_r=1](**www.tiktok.com/@trippybeatt/video/7273343482721291563     ?_t=8fI24GJcSEn&_r=1**)
 
 	Only the part left of the question-mark is required to share the video in reality. All the things after the question-mark are just trackers embedded into the link by TikTok.
 
 3. So the cleaned-up version of it would be:
-**https://www.tiktok.com/@trippybeatt/video/7273343482721291563**
+**www.tiktok.com/@trippybeatt/video/7273343482721291563**
 
 	This is also what you will get as output, from the website.
