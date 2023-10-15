@@ -1,7 +1,7 @@
 # tiktok-hide-share
 ## For when you just want to share a tiktok, not your profile + other intrusive trackers inside of the link.
 ### What is it doing?
-It is taking your provided share-link (for example: vm.tiktok.com/ZMjLCdn2V) (which is just found from some reddit post).
+It is taking your provided share-link (for example: [vm.tiktok.com/ZMjLCdn2V](vm.tiktok.com/ZMjLCdn2V)) *(which is just found from some reddit post)*.
 
 Upon opening the link, the real expanded link will appear in the address bar. There you will see, that it is not just linking to the video on the creator's profile, but instead also providing the information of which user it was shared by. As well as various other information for tiktok's own analytics.
 
