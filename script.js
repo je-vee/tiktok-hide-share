@@ -44,7 +44,7 @@ document.addEventListener("DOMContentLoaded", function() {
 	transformButton.addEventListener("click", function() {
 		const inputText = linkInput.value;
 		
-		const linkPattern = 'vm.tiktok.com';
+		const linkPattern = 'vt.tiktok.com';
 		
 		if (inputText != "" && inputText.match(linkPattern)) {
 			resultContainer.style.display = "block";
@@ -85,7 +85,7 @@ document.addEventListener("DOMContentLoaded", function() {
 				}
 			});
 		} else {
-			alert("Invalid link")
+			alert("Invalid link. Should match pattern \"vm.tiktok.com/ZMeVvkpL3/\"")
 		}
 	});
 });
